@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "cleandist": "rimraf dist/*",
     "clean": "rimraf ../resources/webapp/*",
-    "copy": "cpx dist/** ../resources/webapp/",
+    "copy": "cpx \"dist/**\" ../resources/webapp/",
     "all": "npm-run-all build clean copy"
   },
   "dependencies": {
